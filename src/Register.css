@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.container-header {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.top_left {
+    flex: 1;
+}
+
+.top_right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topnav-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.topnav-right a:hover {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+}
+
+.topnav-right a:active {
+    transform: scale(0.95);
+}
+
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 40px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    border-top: 1px solid #ddd;
+}
+
+footer .rounded {
+    margin-bottom: 20px;
+    margin-left: 30rem;
+    gap: 15px;
+}
+
+footer .rounded a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer .rounded a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+footer .rounded a:nth-child(4) {
+    margin-left: auto;
+    order: -1;
+}
+
+footer .bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer .bottom .sangiaodich a {
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer .bottom .sangiaodich a:hover {
+    text-decoration: underline;
+}
+
+footer .noidungchantrang {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer .noidungchantrang .fw500 {
+    font-weight: 500;
+}
+
+footer a.text-black-50 {
+    color: #555;
+    text-decoration: none;
+}
+
+footer a.text-black-50:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+footer span.text-black-50 {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+}
+
+
